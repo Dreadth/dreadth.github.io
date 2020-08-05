@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns# fb: https://www.facebook.com/2008/fbml">
+<head>
+    <title>Hello World - Dreadth Tech</title>
+    <!-- Using the latest rendering mode for IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+<link rel="canonical" href="/hello-world.html">
+
+        <meta name="author" content="Dreadth" />
+        <meta name="keywords" content="Py3.8,Python,Function" />
+        <meta name="description" content="Everything you need to know about the print function." />
+
+        <meta property="og:site_name" content="Dreadth Tech" />
+        <meta property="og:type" content="article"/>
+        <meta property="og:title" content="Hello World"/>
+        <meta property="og:url" content="/hello-world.html"/>
+        <meta property="og:description" content="Everything you need to know about the print function."/>
+        <meta property="article:published_time" content="2020-08-05" />
+            <meta property="article:section" content="Beginner" />
+            <meta property="article:tag" content="Py3.8" />
+            <meta property="article:tag" content="Python" />
+            <meta property="article:tag" content="Function" />
+            <meta property="article:author" content="Dreadth" />
+
+
+
+    <!-- Bootstrap -->
+        <link rel="stylesheet" href="/theme/css/bootstrap.min.css" type="text/css"/>
+    <link href="/theme/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="/theme/css/pygments/native.css" rel="stylesheet">
+    <link rel="stylesheet" href="/theme/css/style.css" type="text/css"/>
+
+
+
+</head>
+<body>
+
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="/" class="navbar-brand">
+Dreadth Tech            </a>
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                         <li><a href="/pages/about.html">
+                             About Dreadth
+                          </a></li>
+                        <li class="active">
+                            <a href="/category/beginner.html">Beginner</a>
+                        </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+</div> <!-- /.navbar -->
+
+<!-- Banner -->
+<!-- End Banner -->
+
+<!-- Content Container -->
+<div class="container">
+    <div class="row">
+        <div class="col-sm-9">
+    <section id="content">
+        <article>
+            <header class="page-header">
+                <h1>
+                    <a href="/hello-world.html"
+                       rel="bookmark"
+                       title="Permalink to Hello World">
+                        Hello World
+                    </a>
+                </h1>
+            </header>
+            <div class="entry-content">
+                <div class="panel">
+                    <div class="panel-body">
+<footer class="post-info">
+    <span class="label label-default">Date</span>
+    <span class="published">
+        <i class="fa fa-calendar"></i><time datetime="2020-08-05T00:00:00-06:00"> Wed 05 August 2020</time>
+    </span>
+
+
+
+
+
+<span class="label label-default">Tags</span>
+	<a href="/tag/py38.html">Py3.8</a>
+        /
+	<a href="/tag/python.html">Python</a>
+        /
+	<a href="/tag/function.html">Function</a>
+    
+</footer><!-- /.post-info -->                    </div>
+                </div>
+                <p>Welcome to a better, &quot;Hello World&quot;. Let's start with the basics.</p>
+<div class="highlight"><pre><span></span><span class="c1"># This is a comment!</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Hello World&quot;</span><span class="p">)</span>
+</pre></div>
+<div class="highlight"><pre><span></span><span class="c1"># Outcome</span>
+<span class="n">Hello</span> <span class="n">World</span>
+</pre></div>
+<p>Not bad, let's mess with that string a bit.</p>
+<div class="highlight"><pre><span></span><span class="c1"># What about using a separator, and using multiple strings?</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Hello&quot;</span><span class="p">,</span> <span class="s2">&quot;World&quot;</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s1">&#39; &#39;</span><span class="p">)</span>
+</pre></div>
+<div class="highlight"><pre><span></span><span class="c1"># Outcome</span>
+<span class="n">Hello</span> <span class="n">World</span>
+</pre></div>
+<p>Same outcome! Let's specify the <em>end</em> parameter.</p>
+<div class="highlight"><pre><span></span><span class="c1"># The end parameter takes a string and simply places it at the end of the print function.</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Hello&quot;</span><span class="p">,</span> <span class="s1">&#39;World&#39;</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s1">&#39;-&#39;</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s1">&#39;!!&#39;</span><span class="p">)</span>  <span class="c1"># Let&#39;s use two bangs!!</span>
+</pre></div>
+<div class="highlight"><pre><span></span><span class="c1"># Outcome</span>
+<span class="n">Hello</span><span class="o">-</span><span class="n">World</span><span class="err">!!</span>
+</pre></div>
+<p>So, about now you are thinking, &quot;Wow, there are so many awesome ways to use the print function&quot;!
+But now I want to blow your mind and introduce you to the wonderfully modular world of Python.
+There is a plugin called Colorama, which has the ability of making our output even more mind-blowing!!</p>
+<p>Let's install it using pip.</p>
+<div class="highlight"><pre><span></span><span class="c1"># This command needs to be run in a terminal session, and not a python IDLE window.</span>
+<span class="n">pip</span> <span class="n">install</span> <span class="n">colorama</span>
+</pre></div>
+<p>Installed Module's (or Library's) can be a bit more complicated to use then python's built-in ones.
+So always reference the documentation if you are confused. StackOverflow is also a great resource.</p>
+<p>Let's initialize colorama, and use it! I'm not going to post the mind-blowing output and you will just have to do it yourself!</p>
+<div class="highlight"><pre><span></span><span class="c1"># First import colorama&#39;s init function.</span>
+<span class="kn">from</span> <span class="nn">colorama</span> <span class="kn">import</span> <span class="n">init</span>
+
+<span class="c1"># Then initialize colorama</span>
+<span class="n">init</span><span class="p">()</span>
+
+<span class="c1"># Then import the functions that will allow us to edit the Foreground, Background, and Style</span>
+<span class="kn">from</span> <span class="nn">colorama</span> <span class="kn">import</span> <span class="n">Fore</span><span class="p">,</span> <span class="n">Back</span><span class="p">,</span> <span class="n">Style</span>
+
+<span class="c1"># Now let&#39;s make our &quot;Hello World&quot; Red Text, Black Background, and Dim Style.</span>
+<span class="c1"># All of which represents world domination.</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">Fore</span><span class="o">.</span><span class="n">RED</span> <span class="o">+</span> <span class="n">Back</span><span class="o">.</span><span class="n">BLACK</span> <span class="o">+</span> <span class="n">Style</span><span class="o">.</span><span class="n">DIM</span><span class="p">)</span>
+<span class="c1"># I can separate these because they are actually opening ASCII commands to recolor/stylize the font.</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Hello World!!)</span>
+<span class="c1"># We can set all the recolor&#39;s back to normal by running the following.</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">Style</span><span class="o">.</span><span class="n">RESET_ALL</span><span class="p">)</span>
+</pre></div>
+<p>You are now a print function king. Go now, and conquer the world, one hello at a time!</p>
+<p>-- Dreadth</p>
+
+            </div>
+            <!-- /.entry-content -->
+        </article>
+    </section>
+
+        </div>
+        <div class="col-sm-3" id="sidebar">
+            <aside>
+<!-- Sidebar -->
+<section class="well well-sm">
+  <ul class="list-group list-group-flush">
+
+<!-- Sidebar/Social -->
+<li class="list-group-item">
+  <h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Social</span></h4>
+  <ul class="list-group" id="social">
+    <li class="list-group-item"><a href="https://twitter.com/Dreadth"><i class="fa fa-twitter-square fa-lg"></i> Twitter</a></li>
+    <li class="list-group-item"><a href="https://www.instagram.com/dreadth.tv/"><i class="fa fa-instagram fa-lg"></i> Instagram</a></li>
+  </ul>
+</li>
+<!-- End Sidebar/Social -->
+  </ul>
+</section>
+<!-- End Sidebar -->            </aside>
+        </div>
+    </div>
+</div>
+<!-- End Content Container -->
+
+<footer>
+   <div class="container">
+      <hr>
+      <div class="row">
+         <div class="col-xs-10">&copy; 2020 Dreadth
+            &middot; Powered by <a href="https://github.com/getpelican/pelican-themes/tree/master/pelican-bootstrap3" target="_blank">pelican-bootstrap3</a>,
+            <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
+            <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>         </div>
+         <div class="col-xs-2"><p class="pull-right"><i class="fa fa-arrow-up"></i> <a href="#">Back to top</a></p></div>
+      </div>
+   </div>
+</footer>
+<script src="/theme/js/jquery.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="/theme/js/bootstrap.min.js"></script>
+
+<!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
+<script src="/theme/js/respond.min.js"></script>
+
+
+
+
+</body>
+</html>
